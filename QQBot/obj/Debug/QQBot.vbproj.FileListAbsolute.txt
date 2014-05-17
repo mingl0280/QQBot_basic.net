@@ -1,0 +1,12 @@
+E:\VS2012\vb.net\QQBot\QQBot\bin\Debug\QQBot.exe.config
+E:\VS2012\vb.net\QQBot\QQBot\bin\Debug\QQBot.exe
+E:\VS2012\vb.net\QQBot\QQBot\bin\Debug\QQBot.pdb
+E:\VS2012\vb.net\QQBot\QQBot\bin\Debug\QQBot.xml
+E:\VS2012\vb.net\QQBot\QQBot\obj\Debug\QQBot.Form1.resources
+E:\VS2012\vb.net\QQBot\QQBot\obj\Debug\QQBot.Resources.resources
+E:\VS2012\vb.net\QQBot\QQBot\obj\Debug\QQBot.vbproj.GenerateResource.Cache
+E:\VS2012\vb.net\QQBot\QQBot\obj\Debug\QQBot.exe
+E:\VS2012\vb.net\QQBot\QQBot\obj\Debug\QQBot.xml
+E:\VS2012\vb.net\QQBot\QQBot\obj\Debug\QQBot.pdb
+E:\VS2012\vb.net\QQBot\QQBot\obj\Debug\QQBot.webbrownser.resources
+E:\VS2012\vb.net\QQBot\QQBot\obj\Debug\QQBot.FormCaptcha.resources

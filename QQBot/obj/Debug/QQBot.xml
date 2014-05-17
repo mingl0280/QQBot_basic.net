@@ -1,0 +1,151 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QQBot
+</name>
+</assembly>
+<members>
+<member name="M:QQBot.ModuleHashPass.MD5_Encrypt(System.String)">
+	<summary>
+ 一次md5加密
+ </summary>
+	<param name="md5_str">需要加密的文本</param>
+	<returns></returns>
+</member><member name="M:QQBot.ModuleHashPass.MD5_Encrypt(System.Byte[])">
+	<summary>
+ 将字节流加密
+ </summary>
+	<param name="md5_bytes">需要加密的字节流</param>
+	<returns></returns>
+</member><member name="M:QQBot.ModuleHashPass.MD5_GetBytes(System.String)">
+	<summary>
+ 获取文本的md5字节流
+ </summary>
+	<param name="md5_str">需要加密成Md5d的文本</param>
+	<returns></returns>
+</member><member name="M:QQBot.ModuleHashPass.Encrypt_1(System.String)">
+	<summary>
+ 加密成md5字节流之后转换成文本
+ </summary>
+	<param name="md5_str"></param>
+	<returns></returns>
+</member><member name="F:QQBot.ModuleHashPass.ByteBuffer.BaseStream">
+	<summary>
+ 获取同后备存储区连接的基础流
+ </summary>
+</member><member name="M:QQBot.ModuleHashPass.ByteBuffer.#ctor">
+	<summary>
+ 构造函数
+ </summary>
+</member><member name="M:QQBot.ModuleHashPass.ByteBuffer.Seek(System.Int32,System.IO.SeekOrigin)">
+	<summary>
+ 设置当前流中的位置
+ </summary>
+	<param name="offset">相对于origin参数字节偏移量</param>
+	<param name="origin">System.IO.SeekOrigin类型值,指示用于获取新位置的参考点</param>
+	<returns></returns>
+</member><member name="M:QQBot.ModuleHashPass.ByteBuffer.Peek">
+	<summary>
+ 检测是否还有可用字节
+ </summary>
+	<returns></returns>
+</member><member name="M:QQBot.ModuleHashPass.ByteBuffer.ToByteArray">
+	<summary>
+ 将整个流内容写入字节数组，而与 Position 属性无关。
+ </summary>
+	<returns></returns>
+</member><member name="M:QQBot.ModuleHashPass.ByteBuffer.Put(System.Boolean)">
+	<summary>
+ 压入一个布尔值,并将流中当前位置提升1
+ </summary>
+	<param name="value"></param>
+</member><member name="M:QQBot.ModuleHashPass.ByteBuffer.Put(System.Byte)">
+	<summary>
+ 压入一个Byte,并将流中当前位置提升1
+ </summary>
+	<param name="value"></param>
+</member><member name="M:QQBot.ModuleHashPass.ByteBuffer.Put(System.Byte[])">
+	<summary>
+ 压入Byte数组,并将流中当前位置提升数组长度
+ </summary>
+	<param name="value">字节数组</param>
+</member><member name="M:QQBot.ModuleHashPass.ByteBuffer.PutInt(System.Int32)">
+	<summary>
+ Puts the int.
+ </summary>
+	<param name="value">The value.</param>
+</member><member name="M:QQBot.ModuleHashPass.ByteBuffer.PutInt(System.UInt32)">
+	<summary>
+ 压入一个int,并将流中当前位置提升4
+ </summary>
+	<param name="value"></param>
+</member><member name="M:QQBot.ModuleHashPass.ByteBuffer.PutInt(System.Int32,System.UInt32)">
+	<summary>
+ Puts the int.
+ </summary>
+	<param name="index">The index.</param>
+	<param name="value">The value.</param>
+</member><member name="M:QQBot.ModuleHashPass.ByteBuffer.Get">
+	<summary>
+ 读取Byte值,并将流中当前位置提升1
+ </summary>
+	<returns></returns>
+</member><member name="T:QQBot.ModulePublicVarDeclears.LoginInformation">
+	<summary>
+ 登录信息存储结构
+ <param name="SourceID">QQ号</param>
+		<param name="QPass">一次哈希的QQ密码</param>
+		<param name="VerifyCookie">登录页Cookie</param>
+		<param name="newRandStr">新随机码</param>
+		<param name="key">验证码</param>
+		<param name="LoginCompleteCookie">登录完毕后的页面Cookie</param>
+		<param name="LoginCompleteParametersArray">登录完毕后的页面参数列表</param>
+	</summary>
+</member><member name="M:QQBot.ModulePublicVarDeclears.HttpClient.#ctor">
+	<summary>
+ 创建一个新的 WebClient 实例。
+ </summary>
+</member><member name="P:QQBot.ModulePublicVarDeclears.HttpClient.Cookies">
+	<summary>
+ Cookie 容器
+ </summary>
+</member><member name="M:QQBot.ModulePublicVarDeclears.HttpClient.GetWebRequest(System.Uri)">
+	<summary>
+ 返回带有 Cookie 的 HttpWebRequest。
+ </summary>
+	<param name="address"></param>
+	<returns></returns>
+</member><member name="M:QQBot.ModulePublicVarDeclears.HttpClient.PostData(System.String,System.String,System.String,System.String,System.String@)">
+	<summary>
+ 向指定的 URL POST 数据，并返回页面
+ </summary>
+	<param name="uriString">POST URL</param>
+	<param name="postString">POST 的 数据</param>
+	<param name="postStringEncoding">POST 数据的 CharSet</param>
+	<param name="dataEncoding">页面的 CharSet</param>
+	<returns>页面的源文件</returns>
+</member><member name="M:QQBot.ModulePublicVarDeclears.HttpClient.GetSrc(System.String,System.String,System.String@)">
+	<summary>
+ 获得指定 URL 的源文件
+ </summary>
+	<param name="uriString">页面 URL</param>
+	<param name="dataEncoding">页面的 CharSet</param>
+	<param name="msg">错误消息</param>
+	<returns>页面的源文件</returns>
+</member><member name="P:QQBot.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:QQBot.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:QQBot.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
